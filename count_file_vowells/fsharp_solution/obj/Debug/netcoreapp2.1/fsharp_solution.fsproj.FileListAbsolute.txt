@@ -1,0 +1,10 @@
+/home/jesus/projects/toy_projects/count_file_vowells/fsharp_solution/obj/Debug/netcoreapp2.1/fsharp_solution.fsprojAssemblyReference.cache
+/home/jesus/projects/toy_projects/count_file_vowells/fsharp_solution/obj/Debug/netcoreapp2.1/fsharp_solution.AssemblyInfoInputs.cache
+/home/jesus/projects/toy_projects/count_file_vowells/fsharp_solution/obj/Debug/netcoreapp2.1/fsharp_solution.AssemblyInfo.fs
+/home/jesus/projects/toy_projects/count_file_vowells/fsharp_solution/bin/Debug/netcoreapp2.1/fsharp_solution.deps.json
+/home/jesus/projects/toy_projects/count_file_vowells/fsharp_solution/bin/Debug/netcoreapp2.1/fsharp_solution.runtimeconfig.json
+/home/jesus/projects/toy_projects/count_file_vowells/fsharp_solution/bin/Debug/netcoreapp2.1/fsharp_solution.runtimeconfig.dev.json
+/home/jesus/projects/toy_projects/count_file_vowells/fsharp_solution/bin/Debug/netcoreapp2.1/fsharp_solution.dll
+/home/jesus/projects/toy_projects/count_file_vowells/fsharp_solution/bin/Debug/netcoreapp2.1/fsharp_solution.pdb
+/home/jesus/projects/toy_projects/count_file_vowells/fsharp_solution/obj/Debug/netcoreapp2.1/fsharp_solution.dll
+/home/jesus/projects/toy_projects/count_file_vowells/fsharp_solution/obj/Debug/netcoreapp2.1/fsharp_solution.pdb
