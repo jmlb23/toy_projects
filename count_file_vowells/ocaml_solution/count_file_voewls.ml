@@ -14,25 +14,27 @@ let rec loop i acc =
 let rec string_to_list str acc = 
   match str with
   | "" -> acc
-  | _ -> string_to_list (String.sub str 0 (String.length str - 1) ) (acc @ [String.get str 0]);;
+  | _ -> string_to_list (String.sub str 1 (String.length str - 1) ) (acc @ [String.get str 0]);;
 
 let vowel_to_int ch =
-  match ch with
+  match Char.lowercase_ascii ch with
   | 'a' -> 1
   | 'e' -> 1
   | 'i' -> 1
   | 'o' -> 1
   | 'u' -> 1
-  | _ -> 0
+  | _ -> 0;;
 
+
+let ( >> ) f g = fun x -> g (f x)
 
 let partials xs = List.map (fun x -> string_to_list x []) xs 
-                  |> List.map (fun x -> List.map vowel_to_int x) 
+                  |> List.map (fun x -> List.map vowel_to_int  x) 
                   |> List.map (fun x -> List.fold_left (+) 0 x)
 let total ints = List.fold_left (+) 0 ints
 let main () =
   let 
-    xs = loop (open_in "/home/jesus/.bashrc") []
+    xs = loop ( (print_endline >> read_line >> open_in) "Introduce un nome de ficheiro a analizar" ) []
   in
     let 
       part = partials xs
